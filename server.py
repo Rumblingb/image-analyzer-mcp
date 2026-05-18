@@ -22,7 +22,7 @@ import sys
 from collections import Counter
 from typing import Optional
 
-from mcp.server import Server, stdio_server
+from mcp.server.lowlevel import Server, stdio_server
 from mcp.types import Tool, TextContent, ImageContent
 from PIL import Image, ImageOps
 
